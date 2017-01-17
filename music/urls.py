@@ -12,7 +12,7 @@ urlpatterns = [
         views.detail, name="detail"),
 
     # /music/<album_id>/favorite/
-    url(r'^(?P<album_id>[0-9]+)/$',
+    url(r'^(?P<album_id>[0-9]+)/favorite/$',
         views.favorite,
         name="favorite"),
 ]
